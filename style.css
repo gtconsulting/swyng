@@ -37,10 +37,11 @@ body{
   color: #FFFFFF!important;
   text-decoration: none!important;
 }
-.footer h2.footerLogoText span {
+.footer h2.footerLogoText .imageDiv {
     background: #333338;
-    padding: 0 8px;
-    border: 2px solid #fff;
+    padding: 0 16px;
+    display: inline-block;
+    margin-bottom: -22px;
 }
 .footer h2.footerLogoText {
     width: 100%;
@@ -48,7 +49,7 @@ body{
     border-bottom: 2px solid #fff;
     line-height: 0.1em;
     font-family: Roboto,"Helvetica Neue",sans-serif;
-    margin: 15px 0 25px;
+    margin: 10px 0 42px;
     color: #fff;
     font-weight: bold;
     font-size: 24px;
