@@ -73,5 +73,16 @@ body{
   .footer .footer-top .list-inline > li {
       padding-right: 5px;
       padding-left: 5px;
+      margin-right: 0px!important;
+      width: 48%;
+  }
+  .footer .footer-top .list-inline {
+    margin-bottom: 2px;
+  }
+  .footer .footer-top .list-inline li:nth-child(even){
+    text-align: right;
+  }
+  .footer .footer-top .list-inline li:nth-child(odd){
+    text-align : left;
   }
 }

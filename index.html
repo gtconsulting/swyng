@@ -9,12 +9,13 @@
 	<body>
     <div class="container">
     	<nav id="themeHeader" class="mb-4 mt-2 navbar navbar-expand-md navbar-dark">
-        <img class="mr-5 img-fluid" width="150" src="./images/logo_black.png">
+        <img class="mr-5  d-none d-md-block img-fluid" width="150" src="./images/logo_black.png">
+        <img class="m-auto  d-block d-md-none img-fluid" width="150" src="./images/logo_black.png">
         <!-- <a class="navbar-brand mr-5" href="#">SWYNG</a> -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler d-none" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="collapse navbar-collapse d-none d-md-block" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item mr-5">
               <a class="nav-link" href="#">BADMINTON</a>
@@ -24,6 +25,9 @@
             </li>
             <li class="nav-item mr-5">
               <a class="nav-link" href="#">RUNNING</a>
+            </li>
+            <li class="nav-item mr-5">
+              <a class="nav-link" href="#">TABLE TENNIS</a>
             </li>
           </ul>
         </div>
@@ -114,7 +118,7 @@
                       </div>
                   </div>
               </div>
-              <div class="mb-3">
+              <div class="mt-2 mb-3">
                 <ul class="list-inline mb-0">
                   <li class="list-inline-item">
                     <a href="#"><img class="img-fluid rounded-circle" width="40" src="./images/facebook-logo.png"></a>
