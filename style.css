@@ -69,6 +69,11 @@ body{
 	color: #fff;
 	font-size: 14px;
 }
+@media(max-width: 340px){
+  .footer .footerMenuLinks ul li, .footer .footerMenuLinks ul li a{
+    font-size: 13px;
+  }
+}
 @media screen and (max-width: 767px){
   .footer .footer-top .list-inline > li {
       padding-right: 5px;
